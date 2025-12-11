@@ -2301,14 +2301,14 @@ img[src$="/images/lockblue.png"] {
 }
 
 #feedback #kudos_message.notice::after {
-  font-size: 12pt;
+  font-size: 10pt;
   padding: 10px;
   display: block;
   content: "Howdy-ho! Thanks for the kudos! ♡";
 }
 
 #feedback #kudos_message.kudos_error::after {
-  font-size: 12pt;
+  font-size: 10pt;
   padding: 10px;
   display: block;
   content: "You already left kudos here, m'kay? :)";

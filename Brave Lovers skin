@@ -2295,21 +2295,3 @@ img[src$="/images/lockblue.png"] {
   content: url("https://images.squidge.org/images/2025/02/09/zerafina_icon_lock_01.png");
   filter: invert(62%) sepia(14%) saturate(1799%) hue-rotate(172deg) brightness(90%) contrast(86%) !important;
 }
-
-#feedback #kudos_message {
-  font-size: 0;
-}
-
-#feedback #kudos_message.notice::after {
-  font-size: 10pt;
-  padding: 10px;
-  display: block;
-  content: "Howdy-ho! Thanks for the kudos! ♡";
-}
-
-#feedback #kudos_message.kudos_error::after {
-  font-size: 10pt;
-  padding: 10px;
-  display: block;
-  content: "You already left kudos here, m'kay? :)";
-}
